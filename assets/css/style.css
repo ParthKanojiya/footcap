@@ -1019,6 +1019,12 @@ a.footer-link:is(:hover, :focus) {
  * #MEDIA QUERIES
 \*-----------------------------------*/
 
+@media (max-width: 485px) {
+  .banner-img {
+    scale: 1 !important;
+  }
+}
+
 /**
  * responsive for larger than 575px screen
  */
